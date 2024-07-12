@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.formBox{
+    background-color: white;
+    width: 50vw;
+    max-height:max-content ;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    border: 4px solid rgb(210, 12, 12);
+    border-radius: 10px;
+}
+.heading{
+    background-color: rgb(189, 27, 27);
+    border-bottom: 2px solid rgb(0, 0, 0);  
+}
+#first,#last{
+    font-size: large;
+    padding-right: 20px;
+}
+#Father{
+    size: 20px;
+}
+label{
+    font-size: large;
+    font-weight: 550;
+}
+#submit{
+    padding: 10px;
+    font-size: 20px;
+    background-color: blue;
+    margin-bottom:20px ;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+#submit:hover{
+    background-color: red;
+}
+
+#address1,#address2,#address3{
+    font-size: large;
+    padding-right: 20px;
+}

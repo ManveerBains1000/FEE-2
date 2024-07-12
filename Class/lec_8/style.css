@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(21, 17, 17);
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+h1{
+    background-color: red;    
+}
+#heading2{
+    color: red;   
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.fruits{
+    margin-left: 22vw;
+}
+
+.fruits ol{
+    width: 50vw;
+    height:20vh;
+    font-size: larger;
+    text-align: left;
+    border: 2px double white;
+    
+}
+
+/* #email{
+    background-color: pink;
+} */
+#para1{
+    background-color: red;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+label{
+    font-size: 25px
+}
+input[placeholder='email']{
+    background-color: pink;
+    padding:5px 10px 10px 20px ;
+    font-size: 25px;
+}
