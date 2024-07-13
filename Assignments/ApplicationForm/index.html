@@ -1,14 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="">
-        <form action="
-        "></form>
+    <div id="form">
+        <form action="">
+            <center>
+                <h1>Application Form</h1>
+            </center>
+
+            <div class="personal-details">
+                <h2>Personal Details</h2>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label for="first-name">First Name</label> <br>
+                        <input type="text" placeholder="Enter your name" id="first-name">
+                    </div>
+                    <div class="input-field">
+                        <label for="last-name">Last Name</label> <br>
+                        <input type="text" placeholder="Enter your name" id="first-name">
+                    </div>
+                    <div class="input-field">
+                        <label for="d0b">Date Of Birth</label> <br>
+                        <input type="date" id="dob">
+                    </div>
+                    <div class="input-field">
+                        <label for="email">Email</label> <br>
+                        <input type="email" placeholder="Enter your email" id="email">
+                    </div>
+                    <div class="input-field">
+                        <label for="mobile">Mobile Number</label> <br>
+                        <input type="number" placeholder="Enter your number" id="mobile">
+                    </div>
+                    <div class="input-field">
+                        <label for="address">Address</label> <br>
+                        <input type="address" placeholder="Enter your address" id="address">
+                    </div>
+                    <div class="input-field">
+                        <label for="occupation">Occupation</label> <br>
+                        <input type="occupation" placeholder="Enter your occupation" id="occupation">
+                    </div>
+                    <div class="select-field">
+                        <label for="gender">Gender: </label><br>
+                        <div class="select">
+                            <input type="radio" name="gender" id="gender">
+                            <span>Male</span>
+                            <input type="radio" name="gender" id="gender">
+                            <span>Female</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="education-details">
+                <h2>Education Details</h2>
+                <div class="fields">
+                    <div class="input-field">
+                        <label for="school">School Name</label> <br>
+                        <input type="text" placeholder="Enter your school name" id="school">
+                    </div>
+                    <div class="input-field">
+                        <label for="study">Study Field</label><br>
+                        <input type="text" placeholder="Enter your study field" id="study">
+                    </div>
+                    <div class="input-field">
+                        <label for="school-address">School address</label> <br>
+                        <input type="address" placeholder="Enter address" id="school-address">
+                    </div>
+                    <div class="input-field">
+                        <label for="12">12 <sup>th</sup> Marks</label> <br>
+                        <input type="text" placeholder="Enter marks" id="12">
+                    </div>
+                    <div class="input-field">
+                        <label for="10">10 <sup>th</sup> Marks</label> <br>
+                        <input type="text" placeholder="Enter marks" id="10">
+                    </div>
+                    <div class="input-field">
+                        <label for="graduation">Graduation year</label> <br>
+                        <input type="date" id="graduation">
+                    </div>
+                </div>
+            </div>
+            <div id="submit">
+                <center><button>Apply Now</button></center>
+            </div>
+
+
+    </div>
+    </form>
     </div>
 </body>
+
 </html>

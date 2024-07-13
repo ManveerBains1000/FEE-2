@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://cuiet.codebrigade.in/images/Chitkara_University_pic.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding:100px 0px ;
+    border-top: 6px solid red;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.container{
+    background-color: white;
+    width: 280px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 5px;
+    position: absolute;
+    right: 100px;
+    border-radius:5px ;
+}
+
+.form .fields .input-items{
+    margin: 10px 0px;   
+}
+
+.form .fields .input-items input[type='text']{
+    width: 220px;
+    height: 20px;
+}
+.form .fields .input-items select{
+    width: 220px;
+    height: 20px;
+}
+.form .fields .input-items label{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form .fields .input-items label[for='pwr']{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sib button{
+    width: 210px;
+    height: 40px;
+    background-color: rgb(184, 1, 1);
+    border: none; 
+    color: white;
+    font-size: 15px;
+}
+.sib .fyp{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.other-fields{
+    margin: 20px 0px 10px 0px;
+    
+}
+
+.other-fields .items a{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2E5B87;
+}
+.other-fields .items{
+    margin: 10px 0px;
+} 
+
+.other-fields .items figure img{
+    margin-left: 28px;   
+}
+.other-fields .items b{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.other-fields .items span{
+    color: #545454;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}

@@ -1,0 +1,12 @@
+/* decendent selector */
+ul li a{
+    color:brown;
+    font-size: larger;
+    text-decoration: none;
+}
+
+/* child selector */
+
+ul > li {
+    background-color: black;
+}
