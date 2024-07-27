@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    display: flex;
+    height: 50vh;
+    width:50vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.boxes{
+    height: 100px;
+    width: 150px;
+    background-color: green;
+    border: 1px solid black;
+}

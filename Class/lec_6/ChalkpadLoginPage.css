@@ -39,6 +39,10 @@ body{
     width: 220px;
     height: 20px;
 }
+.form .fields .input-items input[type='password']{
+    width: 220px;
+    height: 20px;
+}
 .form .fields .input-items select{
     width: 220px;
     height: 20px;
