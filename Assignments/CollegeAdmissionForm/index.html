@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="form">
+        <form action="">
+            <center>
+                <h1>College Admission Form</h1>
+            </center>
+
+            <div class="personal-details">
+                <h2>Personal Details</h2>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label for="first-name">First Name</label> <br>
+                        <input type="text"  id="first-name">
+                    </div>
+                    <div class="input-field">
+                        <label for="last-name">Last Name</label> <br>
+                        <input type="text"  id="first-name">
+                    </div>
+                    <div class="input-field">
+                        <label for="d0b">Date Of Birth</label> <br>
+                        <input type="date" id="dob">
+                    </div>
+                    <div class="input-field">
+                        <label for="email">Email</label> <br>
+                        <input type="email"  id="email">
+                    </div>
+                    <div class="input-field">
+                        <label for="mobile">Mobile Number</label> <br>
+                        <input type="number" id="mobile">
+                    </div>
+                    <div class="select-field">
+                        <label for="gender">Gender: </label><br>
+                        <div class="select">
+                            <input type="radio" name="gender" id="gender">
+                            <span>Male</span>
+                            <input type="radio" name="gender" id="gender">
+                            <span>Female</span>
+                        </div>
+                    </div>
+                    <div class="input-field" id="address">
+                        <label for="address">Address</label> <br>
+                        <input type="address"  id="address">
+                    </div>
+                </div>
+            </div>
+            <div id="admission-inf">
+                <h2> Admission Information</h2>
+                <div class="fields">
+                <div class="input-fields">
+                    <label for="apl-type">Application Type: </label>
+                    <div class="select-options">
+                        <div><input type="radio" name="apl-type" id="apl-type"> Freshman</div>
+                        <div><input type="radio" name="apl-type" id="apl-type"> Transfer</div>
+                        <div><input type="radio" name="apl-type" id="apl-type"> Other</div>
+                    </div>
+                </div>
+                <div class="input-fields">
+                    <label for="apl-for">Application For: </label>
+                    <div class="select-options">
+                        <div><input type="radio" name="apl-for" id="apl-for"> 1st sem</div>
+                        <div><input type="radio" name="apl-for" id="apl-for">2nd sem</div>
+                    </div>
+                </div>
+                <div class="input-fields">
+                    <label for="caf">Course Applied For: </label><br>
+                    <select name="caf" id="caf">
+                        <option value="0">Please Select</option>
+                        <option value="1">B.tech</option>
+                        <option value="2">M.tech</option>
+                        <option value="3">Bsc</option>
+                        <option value="4">Msc</option>
+                        <option value="5">Hotel Management</option>
+                    </select>
+                </div>
+                </div>
+            </div>
+            <div id="school-details">
+                <h2>High School Education</h2>
+                <div class="fields">
+                    <div class="input-fields">
+                        <div><label for="schoolName">Name of Last School Name Attended</label></div>
+                        <div><input type="text" name="schoolName" id="schoolName"></div>
+                    </div>
+                    <div class="input-fields">
+                        <div><label for="graduation-year">Year of Graduation</label></div>
+                        <div><input type="text" name="graduation-year" id="graduation-year"></div>
+                    </div>
+                    <div class="input-fields">
+                        <div><label for="ranking">Ranking in Graduation Class</label></div>
+                        <div><input type="text" name="ranking" id="ranking"></div>
+                    </div>
+                    <div class="input-fields">
+                        <div><label for="percentage">Percentage in Graduation Class</label></div>
+                        <div><input type="text" name="Percentage" id="percentage"></div>
+                    </div>
+                </div>
+                <div class="text-fields">
+                    <div><label for="achievements">Please provide any academic achievements or awards you have received in School (if there is any)</label></div>
+                    <div><textarea name="achievements" id="achievements" rows="10" cols="86" ></textarea></div>
+                </div>
+
+            </div>
+            <div id="submit">
+                <center><button>Apply Now</button></center>
+            </div>
+
+
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>
