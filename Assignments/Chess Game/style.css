@@ -31,6 +31,9 @@ h1{
 i{
     font-size: 2.4rem;
 }
+i:hover{
+    color: rgb(242, 171, 18);
+}
 .white{
     background-color: white;
 }
